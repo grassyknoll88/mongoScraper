@@ -1,7 +1,7 @@
 {
   "name": "mongoscraper",
   "version": "1.0.0",
-  "description": "interface displaying scraped info",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,18 +11,20 @@
     "type": "git",
     "url": "git+https://github.com/grassyknoll88/mongoScraper.git"
   },
-  "author": "Ben Knoll",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/grassyknoll88/mongoScraper/issues"
   },
   "homepage": "https://github.com/grassyknoll88/mongoScraper#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.1.2",
+    "morgan": "^1.9.0",
     "request": "^2.87.0"
   }
 }
